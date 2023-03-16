@@ -16,8 +16,8 @@ let playGame = () => {
         } else {
             let compResponse = "S";
             return compResponse;
-        }
-    }
+        };
+    };
     
     compResponse = rpsFunc();
 
