@@ -5,7 +5,8 @@ let ties = 0;
 
 let playGame = () => {
     let rpsFunc = () => {
-        let num = Math.floor(Math.random() * ((3 - 1) + 1)) + 1
+    let num = Math.floor(Math.random() * 3) + 1
+    // let num = Math.floor(Math.random() * ((3 - 1) + 1)) + 1
     
         if (num === 1) {
             let compResponse = "R";
